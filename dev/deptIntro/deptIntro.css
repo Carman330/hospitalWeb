@@ -1,0 +1,87 @@
+body{
+	background: url(../images/deptIntroBg.png);
+}
+
+.dsib {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.fl{
+	float: left;
+}
+
+#header{
+	height: 260px;
+}
+
+#container{
+	width: 1500px;
+	height: 600px;
+	border:1px solid red;
+	margin: auto;
+}
+
+.buildTitle{
+	border-width: 0px 1px;
+	border-color: #c0ae95;
+	border-style: solid;
+	width: 78px;
+	height: 600px;
+}
+
+.titleText{
+	color: #6c3e27;
+	text-align: center;
+	font-size: 40px;
+	margin: auto;
+	font-weight: bolder;
+	writing-mode: tb-rl;
+}
+
+.rotateTxt{
+	-webkit-transform:rotate(90deg);
+        -moz-transform:rotate(90deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    color:#3a7756;
+    font-size: 24px;
+}
+
+.deptList{
+	width: 1250px;
+}
+
+.deptList td{
+	width:25%;
+	text-align: center;
+	height: 64px;
+	font-size: 26px;
+	font-family: 微软雅黑;
+	position: relative;
+	border-right: 2px solid white;
+}
+
+.deptList td.last{
+	border: 0px;
+}
+
+
+.deptList tr.even{
+	background-color: #9e7e65;
+	color:white;
+}
+
+.deptList tr.odd{
+	color:#535353;
+}
+
+.deptList .mask{
+	background-color: #f6e1c7;
+	opacity: 0.5;
+	height: 100%;
+position: absolute;
+width: 100%;
+top: 0px;
+z-index: -1;
+}
