@@ -1,0 +1,94 @@
+
+div.bottomNavList{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	min-height:145px;
+	overflow:hidden;
+}
+div.bottomNavList div.containerHelper{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	min-height:145px;	
+	background:url(images/bottomOpacityBg.png) top center no-repeat;
+}
+div.bottomNavList a.navOpeBtn{
+	position:absolute;
+	width:50px;
+	height:15px;
+	left:50%;
+	margin-left:-20px;
+	top:15px;
+	background:url(images/yearsMoveArrow.png) 0px -558px no-repeat;
+	border:none;
+	cursor:pointer;
+}
+span.navText{
+	position:absolute;
+	width:50px;
+	height:15px;
+	left:50%;
+	margin-left:-20px;
+	top:35px;
+	text-align:center;
+	font-size:20px;
+	font-family:宋体;
+	font-weight:bold;
+	color:#598969;
+}
+div.bottomNavList ul.navItemUl{
+	position:absolute;
+	top:60px;
+	width:100%;
+	margin: 0px;
+	left: -40px;
+}
+ul li.navItem{
+	height:35px;
+	line-height:35px;
+	padding-left:30px;
+	font-size:24px;
+	background:url(images/yearsMoveArrow.png) 0px -617px no-repeat;
+	margin:0px 40px;
+	opacity: 0;
+}
+
+div.circleTransContainer .carousel {
+	left: 50%;
+	margin-left: -250px;
+	margin-top: 64px;
+}
+ul li.navItem{
+	-webkit-animation-name: animations2;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-duration: .3s;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-delay: 1s;
+}
+@-webkit-keyframes animations {
+	from {
+		opacity: 0
+	}
+
+	80% {
+		opacity: .8;
+		width: 120px
+	}
+
+	to {
+		opacity: 1;
+		width: 110px
+	}
+}
+@-webkit-keyframes animations2 {
+	from {
+		opacity: 0
+	}
+
+	to {
+		opacity: 1
+	}
+}
