@@ -1,0 +1,86 @@
+body{
+	background: url(../images/slideBg.png);
+	margin: 0;
+	padding: 0;
+}
+
+.dsib {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+.fl{
+	float: left;
+}
+
+#header{
+	height: 133px;
+}
+
+#container{
+	width: 1920px;
+	height: 530px;
+	/*border:1px solid red;*/
+	/*margin: auto;*/
+}
+
+#container .bigImgUnit{
+	margin: auto;
+}
+
+#container .imgTxt{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 28px;
+	color: white;
+}
+
+.slideBigImg{
+	margin: 0 50px;
+}
+
+.slideBottom{
+	background: url(../images/smallSlideBg.png);
+	height: 298px;
+	margin-top: -70px;
+}
+.slideSmallImg{
+	margin: auto;
+padding-top: 90px;
+width: 1660px;
+}
+
+#container .slick-prev,#container .slick-next{
+		background: url(../images/slideArraw.png) no-repeat;
+}
+
+#container .slick-prev:before,#container .slick-next:before{
+	font-family: ""; 
+	font-size: 0px; 
+}
+
+#container .slideBigImg .slick-prev,#container .slideBigImg .slick-next{
+	width: 44px;
+	height: 54px;
+}
+
+#container .slideBigImg .slick-next{
+	background-position: -44px 0px;
+}
+
+#container .slideSmallImg .slick-prev,#container .slideSmallImg .slick-next{
+	width: 53px;
+	height: 93px;
+}
+
+#container .slideSmallImg .slick-prev{
+	background-position:  0px -63px;
+	left: -65px;
+}
+
+
+#container .slideSmallImg .slick-next{
+	background-position:  -53px -63px;
+	right: -65px;
+}

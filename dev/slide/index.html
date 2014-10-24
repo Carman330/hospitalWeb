@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
     <title>网易文具系统--文具订购</title>
     <link rel="stylesheet" type="text/css" href="../lib/jscroll/jquery.jscrollpane.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="deptIntro.css" />
     
 </head>
-<body style="overflow-x: hidden">
+<body>
 <div id="header">
     <div id="headlabel">
     </div>
@@ -16,13 +17,19 @@
 </div>
 <div id="container">
     <div>
-        <div class="buildTitle fl">
-            <p class="titleText">科室</p>
-            <p class="rotateTxt">KESHI</p>
+        <div class="slideBigImg slideBox">
+            <div class="bigImgBox">
+                <div class="bigImg">
+                    <img class="lz hotUnitImg" data-lazy="<%=toolHotImage%>" alt="<%=showName%>" />
+                </div>
+                <div class="imgTxt">
+                    <p></p>
+                </div>
+            </div>
         </div>
-        <div class="deptContainer fl">
-            <div class="listBox">
-                <!-- 科室列表 -->
+        <div class="slideSmallImg slideBox">
+            <div class="smallImgBox">
+                <img class="lz hotUnitImg" data-lazy="<%=toolHotImage%>" alt="<%=showName%>" />
             </div>
         </div>
     </div>
@@ -35,7 +42,7 @@
     <script type="text/javascript" src="../lib/underscore_1.6.0.js"></script>
     <script type="text/javascript" src="../lib/jscroll/jquery.jscrollpane.min.js"></script>
     <script type="text/javascript" src="../lib/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="../lib/slick.min.js"></script>
+    <script type="text/javascript" src="../lib/slick/slick.min.js"></script>
     <script type="text/javascript" src="deptIntro.js"></script>
 
 </body>
