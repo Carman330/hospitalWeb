@@ -48,11 +48,19 @@ body{
     font-size: 24px;
 }
 
-.deptList{
+.deptContainer{
+	height: 600px
+}
+
+.deptContainer .listBox{
+	height: 600px;
+}
+
+.deptContainer .deptList{
 	width: 1250px;
 }
 
-.deptList td{
+.deptContainer .deptList td{
 	width:25%;
 	text-align: center;
 	height: 64px;
@@ -62,21 +70,21 @@ body{
 	border-right: 2px solid white;
 }
 
-.deptList td.last{
+.deptContainer .deptList td.last{
 	border: 0px;
 }
 
 
-.deptList tr.even{
+.deptContainer .deptList tr.even{
 	background-color: #9e7e65;
 	color:white;
 }
 
-.deptList tr.odd{
+.deptContainer .deptList tr.odd{
 	color:#535353;
 }
 
-.deptList .mask{
+.deptContainer .deptList .mask{
 	background-color: #f6e1c7;
 	opacity: 0.5;
 	height: 100%;
