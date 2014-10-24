@@ -18,8 +18,8 @@ body{
 
 #container{
 	width: 1500px;
-	height: 600px;
-	border:1px solid red;
+	height: 530px;
+	/*border:1px solid red;*/
 	margin: auto;
 }
 
@@ -28,7 +28,7 @@ body{
 	border-color: #c0ae95;
 	border-style: solid;
 	width: 78px;
-	height: 600px;
+	height: 530px;
 }
 
 .titleText{
@@ -49,15 +49,17 @@ body{
 }
 
 .deptContainer{
-	height: 600px
+	height: 530px
 }
 
 .deptContainer .listBox{
-	height: 600px;
+	height: 530px;
+	width: 1420px;
 }
 
 .deptContainer .deptList{
 	width: 1250px;
+	margin:18px 70px; 
 }
 
 .deptContainer .deptList td{
@@ -92,4 +94,21 @@ position: absolute;
 width: 100%;
 top: 0px;
 z-index: -1;
+}
+
+.jspVerticalBar{
+	width: 20px;
+}
+
+.jspTrack{
+	margin: 0 6px;
+	width: 8px;
+	background: #c0b8ac;
+}
+
+.jspDrag{
+	background: #6c3e27;
+	width: 20px;
+	border-radius: 10px;
+	margin-left: -6px;
 }

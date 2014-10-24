@@ -42,7 +42,9 @@ $(function(){
 	function initScroll($tar){
 		//加滚动条
 			$tar.jScrollPane({
-				showArrows : false
+				showArrows : false,
+				verticalDragMinHeight: 20,
+				verticalDragMaxHeight: 200,
 			});
 			// 然后当内容发生变化时，重新初始化滚动条
 			var Scrollbar = $tar.data('jsp');
