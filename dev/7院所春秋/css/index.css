@@ -1,0 +1,35 @@
+body{
+	background:url(../images/bg.jpg) no-repeat top left;
+	font-family:Microsoft YaHei;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+div.navSep{
+	position:absolute;
+	width:1200;
+	height:290px;
+	margin-top:-145px;
+	margin-left:-600px;
+	top:50%;
+	left:50%;
+	text-align:center;
+}
+div.middleGap{
+	margin:-20px 55px 0px;
+	width:0px;
+	height:320px;
+	border-left:solid 1px #cec6bb;
+}
+div.jumpLoading{
+	position:absolute;
+	left:50%;
+	width:110px;
+	height:30px;
+	margin-left:-48px;
+	bottom:180px;
+	color:#397756;
+	font-size:34px;
+	font-weight:bold;
+	background:url(../images/jumpLoadingBg.png) center center no-repeat;
+}

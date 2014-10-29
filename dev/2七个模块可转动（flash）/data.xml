@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<my3dgallery>
+	
+	<photos>
+			<photo>
+				<thumb src="images/1.jpg" />
+				<img src="images/1big.jpg" />
+				<caption text="院区鸟瞰" />
+				<desc> <![CDATA[全方位展示我院各大院区的建筑规划院区 <a href="event:http://www.google.com"> More </a> ]]> </desc>
+			</photo>
+			
+			<photo>
+				<thumb src="images/2.jpg" />
+				<img src="images/2big.jpg" />
+				<caption text="组织架构"/>
+				<desc> <![CDATA[介绍我院的行政架构以及各大科室的简介 <a href="event:http://www.google.com"> More </a> ]]> </desc>
+			</photo>
+			
+			<photo>
+				<thumb src="images/3.jpg" />
+				<img src="images/3big.jpg" />
+				<caption text="院所春秋"/>
+				<desc> <![CDATA[介绍我院50年来的风雨历程 <a href="event:http://www.google.com"> More </a> ]]> </desc>
+			</photo>
+			
+			<photo>
+				<thumb src="images/4.jpg" />
+				<img src="images/4big.jpg" />
+				<caption text="成果荣誉"/>
+				<desc> <![CDATA[展示我院历年以来在医教研方面取得的国际及国家级别以上的重要成果 <a href="event:http://www.google.com"> More </a> ]]> </desc>
+			</photo>
+			
+			<photo>
+				<thumb src="images/5.jpg" />
+				<img src="images/5big.jpg" />
+				<caption text="国际交流"/>
+				<desc> <![CDATA[展示我院多年来与国内外同行的易学学术教育等方面的风尚 <a href="event:http://www.google.com"> More </a> ]]> </desc>
+			</photo>
+			
+			<photo>
+				<thumb src="images/6.jpg" />
+				<img src="images/6big.jpg" />
+				<caption text="领导关怀"/>
+				<desc> <![CDATA[展示各届各级领导对我院发展的关注及指导帮助 <a href="event:http://www.google.com"> More </a> ]]> </desc>
+			</photo>
+			
+			<photo>
+				<thumb src="images/7.jpg" />
+				<img src="images/7big.jpg" />
+				<caption text="书刊集萃"/>
+				<desc> <![CDATA[展示我院重要的书刊等成果<a href="event:http://www.google.com"> More </a> ]]> </desc>
+			</photo>
+			
+			
+	</photos>
+	
+</my3dgallery>
