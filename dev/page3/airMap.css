@@ -38,11 +38,11 @@ body{
 }
 
 .build1-title{
-	width: 66px;
-	height: 183px;
-	background: url(../images/build1Title.jpg) no-repeat;
+	width: 121px;
+	height: 283px;
+	background: url(../images/build1Title.png) no-repeat;
 	position: absolute;
-	bottom: 0px;
+	bottom: -72px;
 	left: 20px;
 }
 
@@ -60,11 +60,11 @@ body{
 }
 
 .build2-title{
-	width: 66px;
-	height: 200px;
-	background: url(../images/build2Title.jpg) no-repeat;
+	width: 121px;
+	height: 283px;
+	background: url(../images/build2Title.png) no-repeat;
 	position: absolute;
-	top: 105px;
+	bottom: 0px;
 	right: 30px;
 }
 
@@ -82,10 +82,32 @@ body{
 }
 
 .build3-title{
-	width: 65px;
-	height: 206px;
-	background: url(../images/build3Title.jpg) no-repeat;
+	width: 121px;
+	height: 283px;
+	background: url(../images/build3Title.png) no-repeat;
 	position: absolute;
-	bottom: 150px;
-	left: 20px;
+	bottom: 104px;
+	left: 0px;
+}
+
+.build1point,.build2point,.build3point{
+	width: 59px;
+	height: 59px;
+	position: absolute;
+
+}
+
+.build1point{
+	top: 533px;
+	left: 720px;
+}
+
+.build2point{
+	top: 452px;
+left: 895px;
+}
+
+.build3point{
+	top: 579px;
+left: 763px;
 }
