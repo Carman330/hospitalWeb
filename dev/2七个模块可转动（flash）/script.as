@@ -503,7 +503,7 @@ package
 			// Tween Caption:Fade In/Fade Out
 			var FadeIn:Function = function(index:Number):void
 			{
-				cap.text = capt[index];
+				cap.txt.text = capt[index];
 				Tweener.addTween(cap, {alpha:1, time: (cTime/2), transition:cTrans});
 			}
 			Tweener.addTween(cap, {alpha:0, time: (cTime/2) , transition:cTrans, onComplete: FadeIn, onCompleteParams:[index]});
@@ -525,8 +525,10 @@ package
 		
 		
 		// Thumb pressed
+		private var flag_goto:Boolean=false;
 		private function Press(e:Event):void
 		{
+			trace("Press");
 			var container = e.target;
 			var p = pContainer[container];
 				
@@ -594,10 +596,15 @@ package
 				Tweener.addTween(camera, {y:0, time: dTime, transition:dTrans });
 				
 				//Fade In Description
-				des.text = desc[p.extra.index];
+				des.txt.text = desc[p.extra.index];
 
 				Tweener.addTween(des, {alpha:1, time: dTime, transition:dTrans, onComplete:AddEvent, onCompleteParams:[p]});
 				cID = p.extra.index;
+				
+				if(flag_goto)
+				{
+					flag_goto=false;
+				}
 			}
 			else
 			{
@@ -634,6 +641,47 @@ package
 						pl2.container.addEventListener(MouseEvent.ROLL_OUT, RollOut);
 						pl2.container.addEventListener(MouseEvent.MOUSE_DOWN, Press);	
 						pl2.container.buttonMode = true;
+						trace("press2");
+						if(!flag_goto)
+						{
+							//跳转网页
+							flag_goto=true;
+							if(p.extra.index==0)
+							{
+								var myURL:URLRequest = new URLRequest("www.baidu.com");
+								navigateToURL(myURL,"_self");
+							}
+							else if(p.extra.index==1)
+							{
+								var myURL:URLRequest = new URLRequest("www.sina.com.cn");
+								navigateToURL(myURL,"_self");
+							}
+							else if(p.extra.index==2)
+							{
+								var myURL:URLRequest = new URLRequest("www.qq.com");
+								navigateToURL(myURL,"_self");
+							}
+							else if(p.extra.index==3)
+							{
+								var myURL:URLRequest = new URLRequest("www.adc.com");
+								navigateToURL(myURL,"_self");
+							}
+							else if(p.extra.index==4)
+							{
+								var myURL:URLRequest = new URLRequest("www.123.com");
+								navigateToURL(myURL,"_self");
+							}
+							else if(p.extra.index==5)
+							{
+								var myURL:URLRequest = new URLRequest("www.ddd.com");
+								navigateToURL(myURL,"_self");
+							}
+							else if(p.extra.index==6)
+							{
+								var myURL:URLRequest = new URLRequest("www.qqqqqq.com");
+								navigateToURL(myURL,"_self");
+							}
+						}
 						
 						//______________________________________________________________
 						
@@ -814,7 +862,7 @@ package
 		
 		private function go2(e:Event):void
 		{
-			var myURL:URLRequest = new URLRequest("./3d2.html");
+			var myURL:URLRequest = new URLRequest("www.baidu.com");
 			navigateToURL(myURL,"_self");
 		}
 	
