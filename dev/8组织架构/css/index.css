@@ -5,72 +5,42 @@ body{
 	width:100%;
 	height:100%;
 }
-div.rightTopLogo{
-	width:140px;
-	height:165px;
+div.navSep{
 	position:absolute;
-	right:110px;
-	top:30px;
-	background:url(../images/rightTopLogo.png) center center no-repeat;
-}
-div.parContainer{
-	width:1680px;
-	margin:0px auto;
-}
-div.hosTopHead{
-	margin:50px auto;
-	width:505px;
-	height:105px;
-	background:url(../images/hosHead.png) center center no-repeat;
-}
-div.treeArc{
-	position:relative;
-	top:-50px;
-	margin:0px;
-	height:730px;
-	background:url(../images/lineLibBg.png) center top no-repeat;
-}
-div.depItemCommon{
-	position:absolute;
+	width:1200;
+	height:290px;
+	margin-top: -235px;
+	margin-left: -495px;
+	top:50%;
+	left:50%;
 	text-align:center;
 }
-div.depItemCommon a{
-	color:#fff;
-	text-decoration:none;
+div.middleGap{
+	margin:-20px 55px 0px;
+	width:0px;
+	height:320px;
+	border-left:solid 1px #cec6bb;
 }
-div.firDepList{
-	padding:15px 15px 0px;
-	width:30px;
-	top:110px;
-	height:130px;
-	background:#6f574b;
-	color:#fff;
-	font-size:18px;
-	font-family:"Microsoft YaHei";
-	line-height:23px;
-	font-weight:normal;
+div.jumpLoading{
+	position:absolute;
+	left:50%;
+	width:110px;
+	height:30px;
+	margin-left:-48px;
+	bottom:180px;
+	color:#397756;
+	font-size:34px;
+	font-weight:bold;
+	background:url(../images/jumpLoadingBg.png) center center no-repeat;
 }
-div.secDepList{
-	padding:15px 12px 0px;
-	width:16px;
-	top:290px;
-	height:130px;
-	background:#94765c;
-	color:#fff;
-	font-size:16px;
-	font-family:"Microsoft YaHei";
-	line-height:18px;
-	font-weight:normal;
+
+.navImg{
+	margin-right: 55px;
+	margin-top: 40px;
 }
-div.thirdDepList{
-	padding:10px 12px 0px;
-	width:16px;
-	top:530px;
-	height:160px;
-	background:#b27437;
-	color:#fff;
-	font-size:14px;
-	font-family:"Microsoft YaHei";
-	line-height:15px;
-	font-weight:normal;
+
+.deptDao{
+	position: absolute;
+bottom: -527px;
+right: 56px;
 }

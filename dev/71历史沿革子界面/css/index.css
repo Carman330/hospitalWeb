@@ -9,8 +9,8 @@ div.navSep{
 	position:absolute;
 	width:1200;
 	height:290px;
-	margin-top: -235px;
-	margin-left: -495px;
+	margin-top: -246px;
+	margin-left: -690px;
 	top:50%;
 	left:50%;
 	text-align:center;
@@ -35,12 +35,7 @@ div.jumpLoading{
 }
 
 .navImg{
-	margin-right: 55px;
+	margin-right: 30px;
 	margin-top: 40px;
-}
-
-.deptDao{
-	position: absolute;
-bottom: -527px;
-right: 56px;
+	float: left;
 }
