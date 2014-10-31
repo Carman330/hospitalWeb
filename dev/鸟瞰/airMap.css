@@ -41,12 +41,15 @@ body{
 	width: 66px;
 	height: 183px;
 	background: url(../images/build1Title.jpg) no-repeat;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
 }
 
 .build2{
 	position: absolute;
-	top: 120px;
-	left: 135px;
+	top: 95px;
+	left: 1110px;
 }
 
 .build2-area{
@@ -58,25 +61,31 @@ body{
 
 .build2-title{
 	width: 66px;
-	height: 183px;
+	height: 200px;
 	background: url(../images/build2Title.jpg) no-repeat;
+	position: absolute;
+	top: 105px;
+	right: 30px;
 }
 
 .build3{
 	position: absolute;
-	top: 120px;
-	left: 135px;
+	top: 480px;
+	left: 640px;
 }
 
 .build3-area{
-	width: 662px;
-	height: 341px;
+	width: 958px;
+	height: 536px;
 	background: url(../images/build3area.png) no-repeat;
 	cursor: pointer;
 }
 
 .build3-title{
-	width: 66px;
-	height: 183px;
+	width: 65px;
+	height: 206px;
 	background: url(../images/build3Title.jpg) no-repeat;
+	position: absolute;
+	bottom: 150px;
+	left: 20px;
 }

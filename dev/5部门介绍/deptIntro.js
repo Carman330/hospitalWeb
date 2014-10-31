@@ -22,7 +22,7 @@ $(function(){
                 			<%_.each(data,function(trData,trIndex){%>\
                 				<tr class="<%=trIndex%2?"odd":"even"%>">\
                 					<%_.each(trData,function(tdData,tdIndex){%>\
-                						<td class="<%=(tdIndex==trData.length-1)?"last":""%>"><div class="<%=trIndex%2?"mask":""%>"></div><%=tdData%></td>\
+                						<td class="<%=(tdIndex==trData.length-1)?"last":""%>"><div class="<%=trIndex%2?"mask":""%>"></div><a href="../3建筑/index.html"><%=tdData%></a></td>\
                 					<%})%>\
 			                    </tr>\
                 			<%})%>\
