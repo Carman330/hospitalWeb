@@ -13,6 +13,15 @@ a.logo{
 	background:url(../images/logo.png) no-repeat 0px 0px;
 }
 
+a.back{
+	position:absolute;
+	background:url(../images/returnArrow.png) no-repeat 0px 0px;
+	width: 86px;
+	height: 29px;
+	right: 20px;
+	top: 20px;
+}
+
 div.bottomNavList{
 	position:fixed;
 	bottom:0px;
