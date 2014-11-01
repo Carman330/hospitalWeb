@@ -11,6 +11,7 @@ a.logo{
 	top:60px;
 	left:105px;
 	background:url(../images/logo.png) no-repeat 0px 0px;
+	z-index: 1000;
 }
 
 a.back{
@@ -20,6 +21,7 @@ a.back{
 	height: 29px;
 	right: 20px;
 	top: 20px;
+	z-index: 1000;
 }
 
 div.bottomNavList{
@@ -28,6 +30,8 @@ div.bottomNavList{
 	width:100%;
 	min-height:145px;
 	overflow:hidden;
+	right: 0px;
+left: 0px;
 }
 div.bottomNavList div.containerHelper{
 	position:absolute;

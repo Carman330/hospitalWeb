@@ -35,7 +35,9 @@ $(function(){
 
 		$("div.listBox").html(tableStr);
 
-		initScroll($("div.listBox"))
+		initScroll($("div.listBox"));
+
+		// $('.bottomNavList').css('min-width',$('#container').width()+'px')
 	}
 
 

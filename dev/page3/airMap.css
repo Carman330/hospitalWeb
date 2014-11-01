@@ -33,8 +33,8 @@ body{
 .build1-area{
 	width: 671px;
 	height: 421px;
-	background: url(../images/build1area.png) no-repeat;
-	cursor: pointer;
+	/*background: url(../images/build1area.png) no-repeat;*/
+	/*cursor: pointer;*/
 }
 
 .build1-title{
@@ -55,8 +55,8 @@ body{
 .build2-area{
 	width: 662px;
 	height: 341px;
-	background: url(../images/build2area.png) no-repeat;
-	cursor: pointer;
+	/*background: url(../images/build2area.png) no-repeat;
+	cursor: pointer;*/
 }
 
 .build2-title{
@@ -77,8 +77,8 @@ body{
 .build3-area{
 	width: 958px;
 	height: 536px;
-	background: url(../images/build3area.png) no-repeat;
-	cursor: pointer;
+	/*background: url(../images/build3area.png) no-repeat;
+	cursor: pointer;*/
 }
 
 .build3-title{

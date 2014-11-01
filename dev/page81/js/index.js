@@ -193,17 +193,17 @@ $(function(){
 	var str = '';
 	_.each(arcData,function(item,pro){
 		if(pro === 'fir'){
-			var rendItem = '<div class="depItemCommon firDepList" style="left:<%=left%>;"><a href="../page5/index.html"><%=text%></a></div>';
+			var rendItem = '<div class="depItemCommon firDepList" style="left:<%=left%>;"><%=text%></div>';
 			_.each(item.data,function(curDataItem){
 				str += _.template(rendItem)(curDataItem);
 			});
 		}else if(pro === 'sec'){
-			var rendItem = '<div class="depItemCommon secDepList" style="left:<%=left%>;"><a href="../page5/index.html"><%=text%></a></div>';
+			var rendItem = '<div class="depItemCommon secDepList" style="left:<%=left%>;"><%=text%></div>';
 			_.each(item.data,function(curDataItem){
 				str += _.template(rendItem)(curDataItem);
 			});
 		}else if(pro === 'third'){
-			var rendItem = '<div class="depItemCommon thirdDepList" style="left:<%=left%>;"><a href="../page5/index.html"><%=text%></a></div>';
+			var rendItem = '<div class="depItemCommon thirdDepList" style="left:<%=left%>;"><%=text%></div>';
 			_.each(item.data,function(curDataItem){
 				str += _.template(rendItem)(curDataItem);
 			});

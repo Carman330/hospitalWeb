@@ -1,24 +1,4 @@
-﻿/*
-
-//===================================================================//
-
-* RRRRRRR    IIIIII  MM     MM  VVV     VVV 
-* RR  RRR      II    MMMMMMMMM   VV     VV 	
-* RRRRR        II    MM MMM MM    VV   VV  	
-* RR  RR       II    MM  M  MM     V   V   	
-* RR   RR      II    MM     MM      VVV    	
-* RR	RR   IIIIII  MM	    MM       V		
-
-//===================================================================//
-
-
-// 3D Interactive Art Gallery
-// RimV: trieuduchien@gmail.com
-
-*/
-
-
-//________________________________________________________________________
+﻿
 
 package 
 {
@@ -56,7 +36,7 @@ package
 		//__________________________________________________________Gallery vars
 		
 		private var numphot:Number = 1; 	// Number of photos
-		private var radius:Number = 600;	// radius of circle makes the carousel
+		private var radius:Number = 800;	// radius of circle makes the carousel
 		private var cradius:Number = 1100;	// cradius of camera rotate around, should be larger than radius
 		private var angle:Number = 0;
 		private var anglePer:Number = new Number();
@@ -106,7 +86,7 @@ package
 		
 		// Reflection
 		private var reflection:Boolean = true;
-		private var refDist:Number = 180;  	//Distance from image to its corresponding reflection
+		private var refDist:Number = 280;  	//Distance from image to its corresponding reflection
 		private var refIn1:Number = 0.5;	// Reflection Intensity 1
 		private var refIn2:Number = 0;		// Reflection Intensity 2
 		private var refDen1:Number = 0;		// Reflection Density 1
@@ -648,37 +628,37 @@ package
 							flag_goto=true;
 							if(p.extra.index==0)
 							{
-								var myURL:URLRequest = new URLRequest("www.baidu.com");
+								var myURL:URLRequest = new URLRequest("../page3/index.html");
 								navigateToURL(myURL,"_self");
 							}
 							else if(p.extra.index==1)
 							{
-								var myURL:URLRequest = new URLRequest("www.sina.com.cn");
+								var myURL:URLRequest = new URLRequest("../page8/index.html");
 								navigateToURL(myURL,"_self");
 							}
 							else if(p.extra.index==2)
 							{
-								var myURL:URLRequest = new URLRequest("www.qq.com");
+								var myURL:URLRequest = new URLRequest("../page7/index.html");
 								navigateToURL(myURL,"_self");
 							}
 							else if(p.extra.index==3)
 							{
-								var myURL:URLRequest = new URLRequest("www.adc.com");
+								var myURL:URLRequest = new URLRequest("../page6/index.html");
 								navigateToURL(myURL,"_self");
 							}
 							else if(p.extra.index==4)
 							{
-								var myURL:URLRequest = new URLRequest("www.123.com");
+								var myURL:URLRequest = new URLRequest("../page6/index.html");
 								navigateToURL(myURL,"_self");
 							}
 							else if(p.extra.index==5)
 							{
-								var myURL:URLRequest = new URLRequest("www.ddd.com");
+								var myURL:URLRequest = new URLRequest("../page6/index.html");
 								navigateToURL(myURL,"_self");
 							}
 							else if(p.extra.index==6)
 							{
-								var myURL:URLRequest = new URLRequest("www.qqqqqq.com");
+								var myURL:URLRequest = new URLRequest("../page6/index.html");
 								navigateToURL(myURL,"_self");
 							}
 						}
@@ -819,9 +799,9 @@ package
 			container.y = stage.stageHeight * 0.5;
 			
 			// Reposition caption, description
-			cap.x = (stage.stageWidth - cap.width) * 0.5 ;
+			cap.x = (stage.stageWidth - cap.width) * 0.8 ;
 			cap.y = container.y + 150;
-			des.x = container.x + 40;
+			des.x = container.x + 240;
 			des.y = (stage.stageHeight - des.height) * 0.5 + 20 ;
 		}
 		
@@ -862,7 +842,7 @@ package
 		
 		private function go2(e:Event):void
 		{
-			var myURL:URLRequest = new URLRequest("www.baidu.com");
+			var myURL:URLRequest = new URLRequest("../page3/index.html");
 			navigateToURL(myURL,"_self");
 		}
 	

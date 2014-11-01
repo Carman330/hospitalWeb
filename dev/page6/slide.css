@@ -27,17 +27,20 @@ body{
 
 #container .bigImgUnit{
 	margin: auto;
+	max-height: 500px;
+margin-top: 150px;
 }
 
 #container .imgTxt{
 	text-align: center;
 	font-family: "微软雅黑";
 	font-size: 28px;
-	color: white;
+	color: #ae9381;
 }
 
 .slideBigImg{
 	margin: 0 50px;
+	margin-top: -80px;
 }
 
 .slideBottom{
@@ -91,6 +94,7 @@ body{
 .smallImgUnit{
 	padding: 5px;
 	background: white;
+	max-height: 120px;
 }
 
 .slick-active .smallImgUnit{
